@@ -1,0 +1,38 @@
+ You're building a database for a customer relationship management (CRM) system. 
+The system needs to store a variety of customer information, including contact details, demographic data, and professional information.
+
+Questions:
+
+1. Email Addresses:
+Which data type would you choose for email addresses (e.g., varchar, char, int)? Justify your choice, considering storage efficiency, search functionality, and potential future changes in email formats.
+
+2.Phone Numbers:
+Which data type would you choose for phone numbers, and why?
+Discuss the pros and cons of storing country codes separately.
+How would you handle potential variations in international phone number formats?
+
+3.Additional Contact Information:
+What other contact information fields might be relevant for a CRM system (e.g., social media handles, instant messaging usernames, physical addresses)?
+What data types would you choose for these fields, and why?
+How would you address privacy concerns related to physical addresses?
+
+4.Demographic Information:
+Suggest appropriate data types for storing the following demographic information:
+Name (first, middle, last)
+Age
+Gender
+Location (city, state/province, country)
+Language preference
+
+5.Professional Information:
+What data types would you use to store the following professional information:
+Occupation
+Company name
+Job title
+Education level
+Skills and expertise
+
+6.Data Integrity and Considerations:
+How would you ensure data integrity and consistency across different fields?
+What factors would influence your choices of data types, such as search functionality, storage efficiency, and potential future changes in data formats?
+Discuss any ethical or privacy considerations that should be addressed when collecting and storing personal information.
