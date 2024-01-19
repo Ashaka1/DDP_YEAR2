@@ -1,1 +1,40 @@
+Data types in SQL specify the kind of data that can be stored in columns and variables. Choosing appropriate data types is crucial for:
 
+Data integrity: Ensuring data accuracy and consistency.
+Storage efficiency: Optimizing space usage.
+Query performance: Facilitating fast and efficient data retrieval.
+Common SQL data types are categorized as follows:
+
+1. Numeric Data Types:
+
+Exact numeric:
+
+int: Integers (whole numbers) with a typical range of -2147483648 to 2147483647.
+bigint: Larger integers with a range of -9223372036854775808 to 9223372036854775807.
+smallint: Smaller integers with a range of -32768 to 32767.
+decimal(p,s): Fixed-point numbers with defined precision (p) and scale (s).
+numeric(p,s): Same as decimal, but can store very large numbers.
+Approximate numeric:
+
+float(p): Single-precision floating-point numbers with up to 7 digits of precision.
+real: Same as float.
+2. Character and String Data Types:
+
+char(n): Fixed-length character strings of length n.
+varchar(n): Variable-length character strings with a maximum length of n.
+text: Large text data with no specified length limit.
+3. Date and Time Data Types:
+
+date: Stores calendar dates (YYYY-MM-DD).
+time: Stores time values (HH:MM:SS).
+datetime: Stores both date and time values.
+timestamp: Similar to datetime, often used for recording timestamps of events.
+4. Binary Data Types:
+
+binary(n): Fixed-length binary data of length n.
+varbinary(n): Variable-length binary data with a maximum length of n.
+5. Other Data Types:
+
+boolean: Stores logical values (true or false).
+XML: Stores XML data.
+JSON: Stores JSON data (in some SQL dialects).
