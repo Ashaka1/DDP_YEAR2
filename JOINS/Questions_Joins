@@ -1,1 +1,35 @@
+You're tasked with building a database for a retail company. Begin by creating the following tables with appropriate columns, and insert at least 6 rows of sample data into each table:
 
+1. Customers Table:
+
+Suggested columns: customer_id (integer), first_name (varchar), last_name (varchar), email (varchar), phone_number (varchar) 2. Orders Table:
+Suggested columns: order_id (integer), customer_id (integer), order_date (date), product_id (integer), quantity (integer) 3. Products Table:
+Suggested columns: product_id (integer), product_name (varchar), description (varchar), price (decimal), quantity_in_stock (integer) 4. Employees Table:
+Suggested columns: employee_id (integer), first_name (varchar), last_name (varchar), department (varchar), manager_id (integer), project_id (integer)
+
+
+Once you've created and populated these tables, use your SQL knowledge to answer the following questions:
+
+
+1)Inner Join
+
+List the names of customers who have placed orders, along with the order dates.
+Show the product names and prices for all orders in the system.
+
+2)Left Join:
+
+Display all products, including their names, descriptions, and available quantities. Highlight products with zero stock.
+List all employees, their departments, and their assigned project names (if any).
+Right Join:
+
+Show all customers with their email addresses, even those who haven't placed any orders.
+List all projects, along with the names of employees assigned to them (if any).
+
+3)Union:
+
+Create a single list of all distinct email addresses used by either customers or employees.
+Combine employee names and customer names into a single list, removing duplicates.
+
+4)Alias:
+
+In any of the above queries, use aliases to make the output more readable, such as renaming a table or column with a shorter or more descriptive name.
