@@ -1,6 +1,13 @@
 -- LEFT OUTER JOINS 
 
-  
+--SYNTAX
+
+SELECT * FROM TableA
+LEFT JOIN TableB
+ON TableA.col_match=TableB.col_match
+
+
+
 
 /* 
 
