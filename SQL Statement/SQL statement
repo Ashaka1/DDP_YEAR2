@@ -1,0 +1,142 @@
+--SELECT 
+
+
+SELECT * FROM actor; 
+
+SELECT * FROM city; 
+
+SELECT * FROM customer; 
+
+SELECT COUNT (*) FROM city; 
+
+SELECT COUNT (city) FROM city; 
+
+SELECT COUNT(*) FROM city; 
+
+/*SELECT COUNT city,last_update FROM city;*/ 
+
+  
+
+  
+
+SELECT COUNT (DISTINCT (city)) FROM city; 
+
+  
+
+--WHERE 
+
+SELECT * FROM city  
+
+WHERE city = 'Abha' AND country_id=82; 
+
+  
+
+  
+
+  
+
+  
+
+--SELECT * FROM city  
+
+WHERE  country_id>=82; 
+
+SELECT * FROM film; 
+
+SELECT * FROM film 
+
+WHERE rating='R'; 
+
+  
+
+SELECT * FROM film 
+
+WHERE rating!= 'R' AND rating!= 'PG-13' ; 
+
+-- NOT 
+
+--SELECT * FROM Film 
+
+--WHERE rating!='R'; 
+
+  
+
+--SELECT store_id,first_name,last_name FROM customer; 
+
+--ORDER BY 
+
+SELECT * FROM customer 
+
+SELECT store_id,first_name,last_name  
+
+FROM customer 
+
+ORDER BY first_name  
+
+--ASC 
+
+--,First_name ASC; 
+
+  
+
+  
+
+--LIMIT 
+
+SELECT * FROM payment 
+
+ORDER BY payment_date ASC 
+
+LIMIT 5; 
+
+  
+
+  
+
+  
+
+  
+
+--WHERE ORDER BY LIMIT 
+
+  
+
+SELECT * FROM payment 
+
+WHERE amount !=0.00 
+
+ORDER BY payment_date DESC 
+
+LIMIT 5; 
+
+  
+
+--BETWEEN  
+
+SELECT * FROM Payment 
+
+WHERE amount BETWEEN 8 AND 9; 
+
+  
+
+-- NOT BETWEEN  
+
+SELECT * FROM Payment 
+
+WHERE amount NOT BETWEEN 8 AND 9; 
+
+--BETWEEN YEAR 
+
+SELECT * FROM payment 
+
+WHERE payment_date BETWEEN 
+
+'2007-02-01' AND '2007-02-15' 
+
+  
+
+--IN 
+
+SELECT * FROM Payment 
+
+WHERE amount IN(0.99,1.98,199); 
